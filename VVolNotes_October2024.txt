@@ -1,0 +1,27 @@
+Adding a line here to change this file.
+Create a new volume - SBDSRDM-001 - 20 TB
+set category to Relations DB - application to sql
+Storage protection -- 7x6 - NO. only for File systems. 
+map each host to it - only allows KC-Main to be selected. 
+Generate Automatic or provide LUN (aka Namespace ID or NSID
+
+Test snapshots
+Test vm migration
+
+We want virtual mode not physical mode for the RDM
+vrdm vs prdm
+
+virtual volumes not RDM 
+
+SBVVOL-001 - 25 TB on the SAN
+Data store - import
+create VVOL at 20 TB in SB
+Create Storage Policy - need to do this first before vm setup
+
+RDMS require robocopy to migrate the data
+VVOLS can be migrated easier
+
+Follow the only 80 full rule, 20% free
+
+max size of VMDKs vs max size of datastore
+Need to make powerstore vsphere aware - 
